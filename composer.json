@@ -1,0 +1,41 @@
+{
+  "name": "silverware/google-maps",
+  "type": "silverstripe-vendormodule",
+  "description": "SilverWare Google Maps Module.",
+  "homepage": "https://github.com/praxisnetau/google-maps",
+  "keywords": [
+    
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Colin Tucker",
+      "role": "Developer",
+      "email": "colin@praxis.net.au",
+      "homepage": "https://www.praxis.net.au/"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "silverware/google": "^1.2"
+  },
+  "require-dev": {
+    
+  },
+  "autoload": {
+    "psr-4": {
+      "SilverWare\\Google\\Maps\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    },
+    "expose": [
+      "admin/client/dist",
+      "client/dist"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

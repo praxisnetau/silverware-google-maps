@@ -1,0 +1,11 @@
+---
+Name: silverware-google-maps
+---
+
+# Configure Content Controller:
+
+SilverStripe\CMS\Controllers\ContentController:
+  required_js:
+    - "silverware/google-maps: client/dist/js/bundle.js"
+  require_css:
+    - "silverware/google-maps: client/dist/styles/bundle.css"
